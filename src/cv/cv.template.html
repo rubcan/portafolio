@@ -1,0 +1,18 @@
+﻿<div ng-controller="CurriculumController">
+      <h3>Work experience</h3>
+
+      <div ng-show="professionalExperience" class="job" ng-repeat="job in professionalExperience | orderBy:'OrderId':true">
+        <div class="col-md-2 col-sm-3 dates vcenter text-center">
+          <div>{{ job.DateStart }} - {{ job.DateFinish }}</div>
+        </div>
+        <div class="col-md-10 col-sm-9 details vcenter">
+          <div style="">
+            <h3><strong>{{ job.Title }}</strong> - {{ job.Company }}, {{ job.Location }}</h3>
+            <p class="description">{{ job.Description }}</p>
+            <ul class="tasks">
+              <li ng-repeat="task in job.Tasks.Task">{{ task }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,154 @@
+/* Colores:
+Marron oscuro: 8D6C1B
+Marron intermedio: 
+Marron clarito: FCE5AF
+*/
+
+
+/* General Styles */
+body{padding:0px; margin:0px; font:13px/14px Trebuchet MS, Arial, Helvetica, sans-serif;}
+div, h1, h2, h3, form, label, select, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+h1{font:26px Helvetica, Arial;font-weight: bold; line-height:28px;}
+.clearboth{clear:both;}
+.error{color:red;font-size:12px;}
+
+
+/* HEAD */
+/*#head{height:75px; background-color:#2A2A2A; border:0; border-bottom:solid 5px #FC9B00;}*/
+#head{height:80px; background:#2A2A2A url('./img/header-bar.jpg') repeat-x bottom left; border:0;}
+#headcontent{width:800px;margin:0 auto;}
+    #headcontent h1 {padding:10px 0 5px 0;background: url('./img/logo.jpg') no-repeat bottom left; width:183px; height:38px; text-indent:-3000px;}
+        #headcontent h1 a{color:#fff;font-family:' @Batang'; font-size:28px;text-decoration:none;}
+        #headcontent h1 a strong{color:#FC9B00;}
+        #headcontent h1 a:hover{text-decoration:underline;}
+    #headcontent .subtitle {color:#fff;margin:0;}
+
+#sections {width:800px;margin:10px auto 0px auto;padding-left:50px;color:#2A2A2A;}
+#sections a {color:#2A2A2A;padding:2px 8px 2px 8px;margin-left:3px;border: dotted 1px #8D6C1B;}
+
+.lang{float:right;vertical-align:top;text-align:center;width:32px;}
+
+/*----BODY PANEL----*/
+#bodyMainPan{background:#fff; color:#4a4a4a; margin:0 auto; clear:both; padding:20px 0 10px 0;}
+#bodyPan{width:749px; margin:0px auto;}
+
+#bodyleftPan{width:485px; float:left;}
+
+#bodyrightPan{width:264px; float:left;padding-top:105px;}
+    #bodyrightPan h3{background:#fff; color:#2a2a2a; font:20px Georgia, "Times New Roman", Times, serif; font-weight:bold; text-transform:uppercase; text-decoration:underline; margin:20px 0 5px 0;}
+    #bodyrightPan ul{width:240px;padding:0;margin:0;}
+    #bodyrightPan ul li{width:240px; height:20px;}
+    #bodyrightPan ul li a{width:224px; height:20px; background:url(guideline_images/bullet-normal.gif) 0 6px no-repeat #fff; color:#4D4D4D; line-height:20px; text-decoration:underline; padding:0 0 0 16px;} 
+    #bodyrightPan ul li a:hover{background:url(guideline_images/bullet-hover.gif) 0 6px no-repeat #fff; color:#111; text-decoration:underline;} 
+
+
+/*----FOOTER PANEL----*/
+#footer{height:95px; background:#2A2A2A; color:#fff; clear:both; padding:40px 0 0; margin:0px 0 0 0;text-align:center;}
+#footer .sections a{padding:0 10px 0; color:#fff; text-decoration:none; font-size:12px;}
+#footer .sections a:hover{text-decoration:underline;}
+
+#footer p.copyright{color:#fff; font-size:11px;margin:20px 0 5px 0;}
+
+#footerValidations{width: 109px;margin:0 auto;}
+#footerPanhtml{float:left;margin-right:2px;}
+    #footerPanhtml a{width:58px; height:16px; display:block; background:#7F035F; color:#fff; font-size:11px; line-height:16px; font-weight:bold; text-align:center; text-decoration:none;}
+    #footerPanhtml a:hover{background:#FC9B00; color:#fff;}
+#footerPancss{float:left;}
+    #footerPancss a{width:48px; height:16px; display:block; background:#FC9B00; color:#fff; font-size:11px; line-height:15px; font-weight:bold; text-decoration:none; text-transform:uppercase; text-align:center;}
+    #footerPancss a:hover{background:#7F035F; color:#fff; text-decoration:none;}
+
+
+
+/* FEED BLOG */
+#feed{width:425px;background-color:#FFFFFF; border:1px solid #6a6a6a; padding:10px 10px 10px 15px;clear:both;}
+    #feed .post{margin:0 0 14px 0;border:0;padding:0;}
+    #feed .titulo{width:370px;float:left;font-size:13px;}
+    #feed .fecha{width:54px;float:right;font-size:9px;}
+    #feed .contenido{margin:5px 0 0 0;font-size:11px;}
+    #feed p.more{height:13px; background:#eaeaea; color:#fff; font-weight:bold; font-size:11px; margin:12px 0;}
+        #feed p.more a{width:40px; height:13px; display:block; background:#2a2a2a; color:#fff; text-decoration:none; text-align:center; line-height:12px; margin:0 0 0 154px; float:right;}
+        #feed p.more a:hover{background:#FC9B00; color:#fff; text-decoration:none;}
+
+
+/*----------------Link Panel --------------*/
+#linkPan{width:196px; float:left; padding:0 42px 0 0;}
+#linkPan h2{width:176px; height:25px; background:#BE8A0A; color:#fff; font:20px/25px Georgia, "Times New Roman", Times, serif; font-weight:bold; padding:0 0 0 20px;}
+
+#linkPan ul{width:176px; padding:20px 0 0 20px;}
+    #linkPan ul li{width:176px; height:18px;}
+        #linkPan ul li a{width:160px; height:18px; background:url(guideline_images/bullet-normal.gif) 0 4px no-repeat #fff; color:#4D4D4D; line-height:18px; text-decoration:none; padding:0 0 0 16px;} 
+        #linkPan ul li a:hover{background:url(guideline_images/bullet-hover.gif) 0 4px no-repeat #fff; color:#111; text-decoration:none;} 
+
+
+/* INICIO */
+.aboutme{width:450px;margin:0px 0 0px 0;padding-top:15px;display:block;}
+.aboutme img{float:left;}
+.aboutmedesc{float:left; margin-left:10px;width:355px;}
+.aboutmedesc h2{margin:15px 0 5px 0px;color:#2A2A2A;}
+
+.aboutme p.more{height:13px; background:#eaeaea; color:#fff; font-weight:bold; font-size:11px; margin:12px 0;}
+    .aboutme p.more a{width:70px; height:13px; display:block; background:#2a2a2a; color:#fff; text-decoration:none; text-align:center; line-height:12px; margin:0 0 0 154px; float:right;}
+    .aboutme p.more a:hover{background:#FC9B00; color:#fff; text-decoration:none;}
+
+#followme {margin-top:50px;}
+    #followme ul li {height:35px;}
+    #followme a{margin-left:16px;display:block; text-indent:-120px; overflow:hidden;}
+    #followme a.followme-li      {background: url('../images/spr-followmeLogos.png') no-repeat 0px -56px; width:126px; height:33px;}
+    #followme a.followme-li:hover{background: url('../images/spr-followmeLogos.png') no-repeat 0px -90px;}
+    #followme a.followme-fb      {background: url('../images/spr-followmeLogos.png') no-repeat 0px 0px; width:126px; height:27px;}
+    #followme a.followme-fb:hover{background: url('../images/spr-followmeLogos.png') no-repeat 0px -28px;}
+
+/* ABOUT ME */
+#aboutme{width:460px;margin:0px 0 0px 0;padding-top:15px;display:block;font-size:14px;text-align:justify;}
+    #aboutme h2{margin:0 0 15px;}
+    #aboutme img.header{width:450px;float:none;background:#fff;padding:4px;border:1px solid #ccc;}
+    #aboutmedesc h2{margin:15px 0 5px 0px;color:#2A2A2A;}
+
+    #aboutme p.more{height:13px; background:#eaeaea; color:#fff; font-weight:bold; font-size:11px; margin:12px 0;}
+    #aboutme p.more a{width:70px; height:13px; display:block; background:#2a2a2a; color:#fff; text-decoration:none; text-align:center; line-height:12px; margin:0 0 0 154px; float:right;}
+    #aboutme p.more a:hover{background:#FC9B00; color:#fff; text-decoration:none;}
+
+/* CURRICULUM */
+
+.curriculum{width:800px !important;}
+    .curriculum h3{font-size:16px;margin-bottom:20px;font-family:'Arial';}
+    .curriculum table{border-collapse: collapse;}
+        .curriculum table tr{}
+        .curriculum table tr td{border:1px solid #ccc;padding:5px 4px 3px 4px;margin:0;}
+    .curriculum .fecha {text-align:center; font-weight:bold;width:130px;vertical-align:top;}
+    .curriculum .puesto {font-weight:bold;width:150px;}
+    .curriculum .empresa{font-weight:bold;width:420px;}
+    .curriculum .descpuesto {}
+        .curriculum .descpuesto ul {list-style-type: circle;}
+
+/* PROJECTS */
+#projects{width:665px;margin-bottom:10px;}
+
+#projectsfilter{margin:0 auto;width:500px;height:40px;display:none;}
+    .projectsnavitem{float:left;width:80px;text-align:center;margin:0 2px;}
+    .projectsnavitem a:hover {}
+
+.project{height:300px;background:#fff;border:4px #222 solid;padding:15px 15px 0 15px;margin:0 auto;margin-bottom:20px;display:block;}
+    .projectimg{float:left;width:240px;text-align:center;}
+    .projectdetails{float:left;width:385px;font-size:13px;line-height:20px;}
+        .project h2{clear:both;font: bold 26px 'Arial';}
+        .project p{margin:15px 0 20px 0;}
+        .projectdate{float:right;font-weight:bold;margin-right:5px;font-style:oblique;}
+        .project ul{padding-left:30px;list-style-type:circle;}
+
+#projectBoxes{clear:both;display:none;}
+
+.hide{display:none;}
+
+/* CONTACT */
+
+#emailSentMsg {width:500px; text-align:center;border:1px solid #ccc;padding:30px 0 30px 0;margin:10px 0 40px 0;}
+
+
+/* Fish Eye Menu */
+.fisheye{text-align: center;height: 50px;width: 750px;left:0px;position:relative;margin:0 auto;}
+    .fisheye a{text-align: center;color: #000;font-weight: bold;text-decoration: none;
+        width: 40px;position: absolute;display: block;top: 0;}
+    .fisheye a img{border: none;margin: 0 auto 5px auto;width: 100%;}
+    .fisheye a span{display: none;}
